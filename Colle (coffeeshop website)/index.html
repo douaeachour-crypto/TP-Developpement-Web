@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloom & Brew | Home</title>
+
+  <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+<link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/images/logo.jpg" alt="Bloom & Brew Logo" height="55">
+        <span class="ms-2">Bloom & Brew</span>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-dark ms-lg-3 mt-2 mt-lg-0"
+          id="themeButton" type="button" onclick="toggleTheme()">
+          Dark Mode
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container text-center">
+      <h1 class="display-3 fw-bold">Welcome to Bloom & Brew</h1>
+      <p class="lead mt-3">
+        Where every cup tells a story.
+      </p>
+      <p>Fresh coffee, delicious pastries, and unforgettable moments.</p>
+      <a href="menu.html" class="btn btn-coffee btn-lg mt-3">
+        Explore Our Menu
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="container py-5 text-center">
+    <h2 class="section-title">A Little About Us</h2>
+    <p class="mx-auto about-text">
+      At Bloom & Brew, we believe that great coffee brings people together.
+      Whether you're meeting friends, studying, or simply taking a break,
+      our café is the perfect place to relax and enjoy every sip.
+    </p>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="container py-5">
+    <h2 class="section-title text-center mb-4">Our Favorites</h2>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800"
+            class="card-img-top product-img" alt="Iced Latte">
+          <div class="card-body text-center">
+            <h5 class="card-title">Iced Latte</h5>
+            <p class="card-text">Smooth espresso with chilled milk.</p>
+            <p class="price">32 MAD</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800"
+            class="card-img-top product-img" alt="Chocolate Cake">
+          <div class="card-body text-center">
+            <h5 class="card-title">Chocolate Cake</h5>
+            <p class="card-text">A rich and delicious chocolate treat.</p>
+            <p class="price">38 MAD</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800"
+            class="card-img-top product-img" alt="Cappuccino">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cappuccino</h5>
+            <p class="card-text">Espresso topped with creamy milk foam.</p>
+            <p class="price">28 MAD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p class="mb-0">© 2026 Bloom & Brew.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/script/script.js"></script>
+</body>
+</html>
