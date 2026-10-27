@@ -1,0 +1,17 @@
+body {
+    width: 600px;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 15px rgb(188, 185, 185);
+}
+#trier{
+    color:white;
+    background-color:brown;
+}
+#trier:hover{
+    color:brown;
+    background-color:white;
+}
